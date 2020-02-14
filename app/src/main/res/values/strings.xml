@@ -1,0 +1,309 @@
+<resources>
+    <string name="app_name">Jusco</string>
+    <string name="hello_world">JUSCO Smart Billing</string>
+    <string name="action_settings">Settings</string>
+    <string name="chooser_title">MeterBilling </string>
+    <!--<string name="APPVERSION">CSPDCL 1.0V </string>-->
+    <string name="APPVERSION">JUSCO 1.0V </string>
+    <string name="DBNAME">JUSCODB</string>
+    <string name="IPADDR">124.123.41.255</string>
+    <string name="PORT">8081</string>
+    <string name="CSPDCLonlinepay">https://cspdcl.co.in/cseb/(S(mzwd5yzys1hpgbgtdxovpppo))/billPayment.aspx</string>
+    <string name="CSPDCLpaytmpay">https://paytm.com/electricity-bill-payment/chhattisgarh</string>
+    <string name="DiscomName">JUSCO</string>
+    <string name="Worktype">Photo Meter Billing</string>
+    <string name="UserNameHint">Enter Username Here</string>
+    <string name="PasswordHint">Enter Password Here</string>
+    <string name="Login">Login</string>
+    <string name="Exit">Exit</string>
+
+
+    <!--MRActivity-->
+
+    <string name="SScno">Search By BP Number</string>
+    <string name="Smtr">Search By Meter No</string>
+    <string name="Seq">Sequence</string>
+    <string name="DupB">Duplicate Bill</string>
+    <string name="Rep">Reports</string>
+    <string name="Du">Data Upload</string>
+
+
+    <!-- Strings For Screen 1 -->
+
+
+    <string name="strScno">BP/MTR No: </string>
+    <string name="strBook">Book: </string>
+    <string name="strName">Name: </string>
+    <string name="strAddr">Addr: </string>
+    <string name="strMF">MF: </string>
+    <string name="strLoad">Load: </string>
+    <string name="strMtrno">Mtr No: </string>
+    <string name="FetchDetails">FETCH DETAILS</string>
+    <string name="NextButton">NEXT</string>
+
+    <string name="ImpactPrinter">Impact Printer</string>
+    <string name="ThermalPrinter">Thermal Printer </string>
+    <string name="connect">Connect</string>
+    <string name="PrintBill">Print</string>
+    <string name="StartBT">Start BT</string>
+    <string name="ScanDev">Scan Devices</string>
+    <string name="BillButton">BILL</string>
+    <string name="PrevButton">PREV</string>
+    <string name="IssueBillButton">Issue Bill</string>
+    <string name="UnitStatus">Unit Status</string>
+    <string name="DailyReport">Daily Report</string>
+    <string name="TotalReport">Total Report</string>
+    <string name="UnbilledCons">Unbilled Consumers List</string>
+    <string name="LoadWiseReport">Load Wise Report</string>
+    <string name="TotalRecords">Total Records</string>
+    <string name="BilledRecords">Billed Records</string>
+    <string name="MTRStatus">0</string>
+    <string name="IDFStatus">1 </string>
+    <string name="RDFStatus">2 </string>
+    <string name="ADFStatus">3 </string>
+    <string name="ASUStatus">4 </string>
+    <string name="NMStatus">5 </string>
+    <string name="MCStatus">6 </string>
+    <string name="MINStatus">7 </string>
+    <string name="DiscRead">9 </string>
+    <string name="Load1_5">Load 1 to 5</string>
+    <string name="Load5_10">Load 5 to 10</string>
+    <string name="Above10">Above 10 </string>
+
+    <string name="Billing">Billing</string>
+    <!--<string name="pctosbm">PC -&ndash;&gt; Mobile</string>-->
+    <string name="pctosbm">Server ---> Mobile</string>
+    <!--<string name="sbmtopc">Mobile -&ndash;&gt; PC</string>-->
+    <string name="sbmtopc">Mobile ---> Server</string>
+
+
+    <string name="navigation_drawer_open">Draw Open</string>
+    <string name="navigation_drawer_close">Draw Close</string>
+
+
+    <string name="Not_Upload_Record">Not Uploaded Records</string>
+    <string name="Upload_Records">Uploaded Records</string>
+    <!--<string name="OverwriteData">Local Data Download</string>-->
+    <string name="OverwriteData">Local DB --> Mobile DB</string>
+    <string name="AppendData">Append</string>
+    <!--<string name="DownloadData">GPRS Data Download</string>-->
+    <string name="DownloadData">GPRS DB --> Mobile DB</string>
+    <string name="BillAmount">Bill Amount</string>
+    <string name="CashCollected">Cash Collected</string>
+
+    <!-- Strings For Screen 2 -->
+    <string name="title_activity_entry">EntryActivity</string>
+
+
+    <string name="strStatus">Meter Status: </string>
+    <string name="strReading">Curr Reading: </string>
+    <string name="strObcode">Event Log No: </string>
+    <string name="strCLoad">R.M.D: </string>
+    <string name="strCCMD">CMD: </string>
+    <string name="strTelno">Tel No: </string>
+    <string name="strIB">Issue Bill </string>
+    <string name="strSBAID">SBA ID:</string>
+    <string name="strCurPF">CUR PF:</string>
+
+
+    <string name="strCash">Cash Collection</string>
+    <string name="strChq">Cheque Collection</string>
+    <string name="strBillAmt">Bill Amount</string>
+    <string name="strCashcol">Cash Collected</string>
+    <string name="strChqno">Cheque No</string>
+    <string name="strBname">Bank Name</string>
+    <string name="strChqamt">Cheque Amount</string>
+
+
+    <string name="title_activity_bill_display">BillDisplay</string>
+
+    <string name="textview_subheadline">© 2015 pixolus GmbH\n</string>
+    <string name="checkbox_lcd">LCD</string>
+
+    <string name="title_radiobutton_black_on_white">Black Text</string>
+    <string name="title_radiobutton_white_on_black">White Text</string>
+
+    <string name="strMtrNum">Enter Meter Num: </string>
+    <string-array name="Login_type">
+        <item>Meter Reader</item>
+        <item>Supervisor</item>
+    </string-array>
+    <string name="spinner_title">Select Login Type</string>
+
+
+    <!--CIE Bluetooth Strings-->
+
+    <string name="action_about">About</string>
+    <string name="bt_not_supported">Device does not support Bluetooth</string>
+    <string name="ready_for_conn">Ready for Connection</string>
+    <string name="printer_not_conn">printer not connected</string>
+    <string name="printer_connecting">printer connecting ...</string>
+    <string name="printer_connected">printer connected</string>
+    <string name="printer_saved">Printer Saved as Favorite</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_cheque_cash_deposit">ChequeCashDeposit</string>
+    <string name="title_activity_cheque_cash_collection">ChequeCashCollection</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- -->
+    <string name="bluetooth">bluetooth</string>
+    <string name="wifi">wifi</string>
+    <string name="usb">usb</string>
+    <!--BTPrinterDemo-->
+    <string name="not_connected">Please Connect BT Printer. (Menu-&amp;gt;Connect)</string>
+    <string name="bt_not_enabled">Bluetooth is not available</string>
+    <string name="bt_has_on">Bluetooth has opened</string>
+    <string name="bt_has_off">Bluetooth has closed</string>
+    <string name="bt_connecting">Bluetooth connecting...</string>
+    <string name="bt_connect_success">Bluetooth connect success</string>
+    <string name="bt_connect_failed">Bluetooth connect failed</string>
+    <string name="bt_connect_closed">Bluetooth connect has closed</string>
+    <string name="bt_print_success">Print Success</string>
+    <string name="bt_print_failed">Print Failed</string>
+    <string name="title_connecting">Connecting...</string>
+    <string name="title_connected">Connected</string>
+    <string name="title_not_connected">Not Connected.</string>
+    <!--  DeviceListActivity -->
+    <string name="scanning">Scanning for devices...</string>
+    <string name="select_device">Please select a device to connect</string>
+    <string name="none_paired">No devices has been paired</string>
+    <string name="has_paired">paired</string>
+    <string name="not_paired">not paired</string>
+    <string name="rePaire_connect">Re-pair And Connect</string>
+    <string name="unpair">Unpair</string>
+    <string name="paire_connect">Pair And Connect</string>
+    <string name="connect_paired">Connect</string>
+    <string name="select_options">Select Options</string>
+    <string name="none_found">No devices found</string>
+    <string name="no_bounded_device">Don\'t found device which name start with %s</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for new devices</string>
+    <!-- Options Menu -->
+
+    <string name="connect2">Open Connect(%1$s)</string>
+    <string name="disconnect">Close Connection</string>
+
+
+    <!-- main.xml -->
+    <string name="edit_hint">Printer Name(such as T9)</string>
+    <string name="print_text">Print Text</string>
+    <string name="print_table">Print Table</string>
+    <string name="print_image">Print Image</string>
+    <string name="print_custom_image">Print Custom Image</string>
+    <string name="print_note">Print Note</string>
+    <string name="print_title">Print Title</string>
+    <string name="bar_code_hint">Input bar code, such as: No.123456</string>
+    <string name="print_bar_code">Print Bar Code</string>
+    <string name="open_file">open file</string>
+    <string name="save_file">save file</string>
+    <string name="save_as_file">save as file</string>
+    <string name="print_file">print text</string>
+    <string name="save_ok">OK</string>
+    <string name="save_cancel">Cancel</string>
+    <string name="toast_input_name">Please input file name!</string>
+    <string name="toast_save_null">Please don\'t save null file!</string>
+    <string name="toast_print_null">Please don\'t print null file!</string>
+    <string name="toast_save_success">Save success!</string>
+    <string name="input_file_name">Please input file name:</string>
+    <string name="back_to_root">Back to root...</string>
+    <string name="back_to_pre">Back to previous...</string>
+    <string name="file_manager">File Manager</string>
+    <string name="editText_print">Text Print</string>
+    <string name="example_text">Android-SDK is a software development kit
+    	that are used to secondary development of printer,
+    	which is provided for customers.
+   		It uses Bluetooth communication protocol,
+    	and intended to be used application development of Android smart device that have BLUETOOTH interface,
+    	such as HTC, Motorola, Samsung and other brands of mobile phones and Android system Tablet.
+    	This SDK is basis on the ESC/POS command standard,
+    	printer with Bluetooth function are suitable for the printing of the system device.
+    	Typical application of Bluetooth phones and portable printer constitutes mobile printing Terminal.
+    	That is widely used in the areas of mobile printing requirements.
+    </string>
+    <string name="company_name">printer company</string>
+    <string name="shop_company_title">GVM ELECTRONIC SYSTEMS</string>
+    <string name="shop_num">Shop Num: </string>
+    <string name="shop_receipt_num">Receipt Num: </string>
+    <string name="shop_cashier_num">Cashier Num: </string>
+    <string name="shop_receipt_date">Receipt Date: </string>
+    <string name="shop_print_time">Print Time: </string>
+    <string name="shop_goods_number">Goods Quantity: </string>
+    <string name="shop_goods_total_price">Total: </string>
+    <string name="shop_payment">Payment: </string>
+    <string name="shop_change">Change: </string>
+    <string name="shop_company_name">Company Name: Gvm Electronic Systems</string>
+    <string name="shop_company_site">Company Site: </string>
+    <string name="shop_company_address">Address:Gvm Electronic Systems,level1,harihara estate,Street no-8,Habsiguda,Hyderabad,Telangana,phone:9030277874</string>
+    <string name="shop_company_tel">TEL: </string>
+    <string name="shop_Service_Line">Service Line: </string>
+    <string name="shop_thanks">Thank you,welcome to come again!</string>
+    <string name="shop_demo">Demo Version!</string>
+    <string name="note_title">Name; Quantity; unit price; Amount</string>
+    <string name="coffee">Coffee</string>
+    <string name="tableware">Tableware</string>
+    <string name="peanuts">Fried peanuts</string>
+    <string name="cucumber">Garlic Cucumber</string>
+    <string name="frog">Griddle Frog</string>
+    <string name="rice">Rice</string>
+    <string name="company_sub_title">     Focused, reliable, excellent brand of specialty printers</string>
+    <string name="bags">Storage bags</string>
+    <string name="umbrella">Umbrella</string>
+    <string name="hook">Wire hook</string>
+    <string name="choose_barcode_type">BarCode Type:</string>
+    <string name="choose_paper_width">Paper Width:</string>
+    <string name="choose_printer_type">Printer Type:</string>
+    <string name="choose_Encoding">Encoding Type:</string>
+    <string name="printer_type_remin">Thermal</string>
+    <string name="printer_type_styuls">Stylus</string>
+    <string name="help">help</string>
+    <string name="input_printer_name">printer name</string>
+    <string name="shop_note_num">receipt number:</string>
+    <string name="text_point24">This is a line of mixed-format text, 24 point font</string>
+    <string name="text_strike_point18">This is the line of strikethrough text, 18-point font</string>
+    <string name="text_underLine_point18">This is the line of underlined text, 18-point font</string>
+    <string name="text_common_point18">This is a line of plain text, 18-point font</string>
+    <string name="toast_success">Success</string>
+    <string name="toast_fail">Fail</string>
+    <string name="toast_notconnect">Please connect printer</string>
+    <string name="toast_usbpermit">Please permit app use usb and reclick this button</string>
+    <!--Rest Services URL -->
+    <!--<string name="ipaddress">http://124.123.41.255:8080</string>-->
+    <string name="ipaddress">http://192.168.1.14:8080</string>
+    <string name="loginURL">CSPDCL_WebServices/rest/CSPDCL/Login</string>
+    <!--http://localhost:8080/CSPDCL_WebServices/rest/CSPDCL/Login-->
+    <string name="DataFetchURL">CSPDCL_WebServices/rest/DataDownload/download</string>
+    <!--http://localhost:8080/CSPDCL_WebServices/rest/DataDownload/download-->
+
+
+    <string name="hint_sign">Get Signature</string>
+    <string name="sign_here_title">Sign Here</string>
+    <string name="hint_cancel">Cancel</string>
+    <string name="hint_clear">Clear</string>
+    <string name="hint_save">Save</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Search By Service Number</item>
+        <item>Search By Meter Number</item>
+        <item>Sequence</item>
+        <item>Duplicate Bill</item>
+        <item>Reports</item>
+        <item>Data Upload</item>
+    </string-array>
+
+    <string-array name="admin_activity_items">
+        <item>Billing</item>
+        <item>PCtoSBM</item>
+        <item>SBMtoPC</item>
+
+    </string-array>
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="LOADING">Loading...</string>
+
+</resources>

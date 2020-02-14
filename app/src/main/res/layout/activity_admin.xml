@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".AdminActivity">
+
+    <Button
+        android:id="@+id/btnBilling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:onClick="billing"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="@string/Billing"
+        android:visibility="invisible"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:drawableTop="@drawable/pcphone"
+        android:text="@string/pctosbm"
+        android:id="@+id/btnDownload"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@color/colorAccent"
+        android:onClick="pctosbm"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:textStyle="bold"
+        android:drawableTop="@drawable/mobpc"
+        android:text="@string/sbmtopc"
+        android:id="@+id/btnUpload"
+        android:layout_marginTop="310dp"
+        android:layout_centerHorizontal="true"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@color/colorPrimary"
+        android:onClick="sbmtopc"
+        />
+
+</RelativeLayout>

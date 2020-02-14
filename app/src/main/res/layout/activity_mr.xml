@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_mr"
+    android:background="@drawable/gradient_bg"
+    tools:context=".MRActivity">
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Meter Reader Activites">
+    <TableRow
+        android:paddingTop="20dp">
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/conssearch"
+        android:text=" Consumer Search"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/btnSearchScno"
+        android:onClick="MR_Search_Scno"
+        android:gravity="bottom"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/duplicate_bill"
+        android:text="    Duplicate Bill    "
+        android:id="@+id/btnDuplicateBIll"
+        android:onClick="Issue_Duplicate_Bill"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:gravity="bottom"
+        />
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="30dp">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/reports2"
+            android:text="    Reports    "
+            android:textAlignment="center"
+            android:id="@+id/btnReports"
+            android:onClick="Reports_Selection"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold"
+            android:gravity="bottom"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/data_upload_1"
+            android:text="Upload Data"
+            android:id="@+id/btnDatacopy"
+            android:layout_marginLeft="30dp"
+            android:onClick="Data_copy"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold"
+            android:gravity="bottom"
+            android:textAlignment="center"
+            />
+    </TableRow>
+
+
+<!--    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="No SCNO"
+        android:id="@+id/btnNoScno"
+        android:onClick="No_Scno"
+        android:visibility="invisible"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Search By MtrNo"
+        android:id="@+id/btnSearchMtr"
+        android:onClick="MR_Search_Mtr"
+        android:visibility="invisible"
+        />
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:text="    Sequence    "
+        android:id="@+id/btnSequence"
+        android:onClick="Search_Cons"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:text="    Reports    "
+        android:id="@+id/btnSelectPrinter"
+        android:onClick="Select_Printer"
+        android:visibility="invisible"
+       />-->
+
+
+  <!--  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:divider="@color/colorPrimaryDark"
+            android:dividerHeight="2dp"
+            android:layout_weight="1"
+
+            >
+        </ListView>
+    </LinearLayout>-->
+</TableLayout>
+</RelativeLayout>

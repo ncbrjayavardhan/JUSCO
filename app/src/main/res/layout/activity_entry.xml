@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".EntryActivity">
+
+    <!--<ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jusco"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        />-->
+    <!--<TextView
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"/>-->
+    <!--Status Entry-->
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strStatus"
+        android:textSize="20dp"
+        android:id="@+id/txtstatus"
+        android:layout_marginTop="70dp"/>-->
+    <!--<Spinner
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/spStatus"
+        android:layout_marginLeft="140dp"></Spinner>-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etStatus"
+        android:layout_marginTop="60dp"
+        android:inputType="number"
+        android:maxLength="2"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"/>
+    <!--Present Reading-->
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strReading"
+        android:textSize="20dp"
+        android:id="@+id/txtEread"
+        android:layout_marginTop="120dp"/>-->
+    <!--<EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etReading"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/text_gradient"
+        android:inputType="number"
+        android:maxLength="8"
+        android:layout_centerHorizontal="true"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtReading"
+        android:textSize="20dp"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        />
+    <!--Observation Code -->
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strObcode"
+        android:textSize="20dp"
+        android:id="@+id/txtObr"
+        android:layout_marginTop="170dp"/>-->
+    <!--<Spinner
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="170dp"
+        android:id="@+id/spRemarks"
+        android:layout_marginLeft="140dp"/>-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etObcode"
+        android:layout_marginTop="160dp"
+        android:inputType="number"
+        android:maxLength="100"
+        android:text="1"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/txtObcode"
+        android:visibility="invisible"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <!--Current Load -->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/strCLoad"-->
+        <!--android:id="@+id/txtEcLoad"-->
+        <!--android:textSize="20dp"-->
+        <!--android:layout_marginTop="220dp"/>-->
+    <!--<EditText-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/etCLoad"-->
+        <!--android:layout_marginTop="220dp"-->
+        <!--android:background="@drawable/text_gradient"-->
+        <!--android:inputType="number|numberDecimal"-->
+        <!--android:maxLength="4"-->
+        <!--android:layout_centerHorizontal="true"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCLoad"
+        android:layout_marginTop="210dp"
+        android:visibility="invisible"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <!--Telephone Number -->
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strTelno"
+        android:textSize="20dp"
+        android:id="@+id/txtETelno"
+        android:layout_marginTop="270dp"/>
+    <EditText
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTelno"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/text_gradient"
+        android:inputType="number|textVisiblePassword"
+        android:textSize="20dp"
+        android:maxLength="10"
+        android:layout_centerHorizontal="true"/>-->
+
+    <!--SBA ID -->
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strSBAID"
+        android:id="@+id/txtEsbaid"
+        android:textSize="20dp"
+        android:layout_marginTop="310dp"/>-->
+   <!-- <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSBAID"
+        android:layout_marginTop="310dp"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:maxLength="4"
+        android:layout_centerHorizontal="true"/>-->
+   <!-- <TextView
+        android:id="@+id/txtSBAID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        />-->
+    <!--Current CMD -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MeterPhase:"
+        android:textSize="20dp"
+        android:id="@+id/tvCmd"
+        android:layout_marginTop="350dp"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCCMD"
+        android:textSize="20dp"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+    <!--Current PF -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtpf"
+        android:text="PF"
+        android:textSize="20dp"
+        android:layout_marginTop="410dp"
+        android:visibility="invisible"/>
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ttCurPF"
+        android:layout_marginTop="370dp"
+        android:text="Cur PF"
+        android:textSize="20dp"
+        android:visibility="visible"/>-->
+    <!--<EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etCurPF"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/text_gradient"
+        android:inputType="numberDecimal"
+        android:textSize="20dp"
+        android:maxLength="4"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txtMessage"
+        android:layout_above="@+id/btnIB"
+        android:layout_centerHorizontal="true"/>
+    <!--<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strIB"
+        android:textSize="20dp"
+        android:id="@+id/btnIB"
+        android:onClick="issuebill"
+        android:textStyle="bold"
+        android:background="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+        android:textColor="@color/cast_libraries_material_featurehighlight_text_header_color"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="200dp"/>-->
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capt"
+        android:id="@+id/btnCapture"
+        android:onClick="capture_photo"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="240dp"
+        android:visibility="invisible"
+        />-->
+    <!--<ImageView
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="@drawable/camera3"
+        android:id="@+id/imgRdg"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="260dp"
+        android:onClick="capture_photo"/>-->
+
+    <!--<ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCapture"
+
+        android:onClick="capture_photo"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="240dp"
+        android:src="@drawable/camera"/>-->
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Back"
+        android:visibility="invisible"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/btnMDCap"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="240dp"
+        android:onClick="CaptureMD"
+        android:visibility="invisible"
+        />
+    <!--<ImageView
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="@drawable/camera2"
+        android:id="@+id/imgMD"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="260dp"
+        android:onClick="CaptureMD"/>-->
+    <include layout="@layout/entry2"/>
+</RelativeLayout>

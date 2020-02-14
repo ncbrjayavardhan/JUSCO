@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/gradient_bg"
+    tools:context=".DuplicateBill">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strScno"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/txtScno"
+        android:layout_marginTop="50dp"/>
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etScno"
+        android:background="@drawable/text_gradient"
+        android:layout_marginTop="50dp"
+        android:maxLength="10"
+        android:inputType="number|textVisiblePassword"
+        android:digits="0123456789"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="110dp"/>
+
+    <!--For Book No-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strBook"
+        android:id="@+id/txtBook"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:visibility="invisible"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBook"
+        android:layout_marginTop="80dp"
+        android:inputType="number"
+        android:maxLength="4"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"/>
+    <!--For Button-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="130dp"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/IssueBillButton"
+        android:textSize="17dp"
+        android:onClick="Duplicate_bill"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/btnDupBill"/>
+
+</RelativeLayout>
